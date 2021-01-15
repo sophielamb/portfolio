@@ -1,11 +1,11 @@
 # Portfolio
 
-A personal portfolio covering my work in as a paintings conservator
+An in-progress personal portfolio covering my work in as a paintings conservator
 
 Built using html / css / Bootstrap 4
 
 ## Work in progress
 
-The project pages are not complete, I intend to fill those ou
+After making the commits, I realise that there are half-completed pages and broken links - these will be fixed soon!
 
-I intend to update to Bootstrap 5
+I intend to update the site to Bootstrap 5
