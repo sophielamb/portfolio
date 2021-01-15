@@ -1,7 +1,11 @@
 # Portfolio
 
-A personal portfolio covering my work in as a paintings conservator.
+A personal portfolio covering my work in as a paintings conservator
 
 Built using html / css / Bootstrap 4
 
-I intend to add to the project pages and probably update everything to Bootstrap 5
+## Work in progress
+
+The project pages are not complete, I intend to fill those ou
+
+I intend to update to Bootstrap 5
