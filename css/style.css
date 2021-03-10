@@ -105,6 +105,10 @@ span, .navbar-link {
 .showcase-container .showcase-row {
   height: 570px;
 }
+
+.about-container .about-row {
+  min-height: 600px;
+}
 /* Footer */
 /* Page template */
 /* Media Queries */
