@@ -1,73 +1,46 @@
-body {
-  overflow-x: hidden;
-}
+/* Master stylesheet
+Project: Conservation Portfolio
+Version: 2.0
+Last change: 15/01/21
+ */
 
+/* General */
+/* Typography */
+/* Colour codes */
+/* Navigation */
+/* Header */
+/* Content */
+/* Footer */
+/* Page template */
+/* Media Queries */
+
+/* ##################### */
+
+
+/* General */
+/* Typography */
 h1 {
   font-size: 8vw;
+  font-family: 'Playfair Display', serif;
 }
 
 h2 {
   font-size: 5rem;
+  font-family: 'Playfair Display', serif;
 }
 
-h1, h2 {
-    font-family: 'Playfair Display', serif;
-}
-
-p, span {
+p {
   font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+
+span, .navbar-link {
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-link {
+  font-family: 'Playfair Display', serif;
   font-size: 1.2rem;
-}
-
-@media (max-width: 768px){
-  h1, {
-    font-size: 80px;
-  }
-}
-
-a.research-link {
-  text-decoration: underline;
-  color: #000;
-}
-
-#showcase {
-  position: relative;
-  background: url('../img/profile-image.jpg');
-  height: 600px;
-  background-repeat:no-repeat;
-  background-position: center;
-  background-size: 36%;
-}
-
-@media (max-width: 768px){
-  #showcase {
-  background-size: 70%;
-  }
-}
-
-#body-home {
-  background-color: #dbd5c9;
-}
-
-#body-about {
-  background: #dbd5c9;
-}
-
-/* #body-about {
-  background: #f2f2f2;
-} */
-
-#about {
-  margin-top: 100px;
-  min-height: 500px;
-}
-
-.showcase-container .showcase-row {
-  height: 570px;
-}
-
-.title .label {
-  font-family: 'Poppins', sans-serif;
 }
 
 .title {
@@ -85,15 +58,53 @@ a.research-link {
   font-family: 'Playfair Display', serif;
 }
 
-.social {
-  font-family: serif;
-  font-size: 20px;
+.caption {
+  font-family: 'Playfair Display', serif;
 }
 
 .research-text {
-  font-size: 1.7rem;
+  font-size: 2vw;
 }
 
-.research-link:hover {
-  color: #dc3545;
+/* Colour codes */
+#index-body {
+  background-color: #dbd5c9;
 }
+
+#work-body {
+  background: #dbd5c9;
+}
+
+#work-project-list {
+  margin-top: 100px;
+  min-height: 500px;
+}
+
+/* Navigation */
+.nounderline {
+  text-decoration: none;
+}
+/* Header */
+/* Content */
+/* Index */
+#index-showcase {
+  position: relative;
+  background: url('../img/profile-image.jpg');
+  height: 600px;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: 36%;
+}
+
+@media (max-width: 768px){
+  #index-showcase {
+  background-size: 70%;
+  }
+}
+
+.showcase-container .showcase-row {
+  height: 570px;
+}
+/* Footer */
+/* Page template */
+/* Media Queries */
