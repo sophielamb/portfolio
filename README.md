@@ -6,4 +6,4 @@ Built using html / css / Bootstrap 5 🔧
 
 ## Work in progress
 
-More to do in terms of improving layout and text styling 🌱
+More to do in terms of improving layout and text styling. Fixing broken images and links?! 🌱
