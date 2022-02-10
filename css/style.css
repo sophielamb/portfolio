@@ -1,0 +1,273 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;600&display=swap'); */
+
+/* GLOBAL */
+:root {
+  --background-colour: #fbf7f1;
+  --background-colour: #FAF3F3;
+/*  Where were these colours from?  */
+  --background-colour: #EEE;
+  --background-colour: #f9f9f4;
+  --primary-font: #222;
+  --primary-font: #4c7bff;
+  --key-colour: #000;
+  --accent-colour: #C4CACC;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Spartan", Helvetica, sans-serif;
+  background-color: var(--background-colour);
+  color: var(--primary-font);
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--primary-font);
+}
+a:hover{
+  color: var(--key-colour);
+  transition: 0.5s;
+  opacity: 0.8;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* FONT STYLING */
+p, li {
+  font-size: 1em;
+  line-height: 130%;
+}
+@media screen and (max-width: 768px) {
+p, li {
+    font-size: 0.75em;
+  }
+}
+.uppercase {
+  text-transform: uppercase;
+}
+/* SPACINGS */
+.margin-sm {
+  margin: 25px 0;
+}
+/* UTILITIES / styling? formatting? */
+.align-r {
+  float: right;
+}
+/* REUSABLE COMPONENTS */
+.section {
+  margin: 2rem;
+}
+/* .container {
+  width: 100%;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+} */
+.hr {
+  width: 98%;
+  margin: 1vh 0;
+  background-color: var(--primary-font);
+  height: 1px;
+  display: inline-block;
+}
+@media screen and (max-width: 991px) {
+  .hr {
+    margin: 0vh;
+  }
+}
+/* NAVBAR */
+.topnav {
+  overflow: hidden;
+  background-color: var(--background-colour);
+  opacity: 0.85;
+}
+.topnav a {
+  display: block;
+  text-align: left;
+/*   padding: 14px 16px 14px 0; */
+}
+.topnav .navlink:hover {
+  color: var(--key-colour);
+  transition: 0.5s;
+}
+.navbrand {
+  float: left;
+  width: 100px;
+  color: var(--primary-font);
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.navlink {
+  float: right;
+  font-size: 17px;
+/*   color: #6E6E6E; */
+  padding: 15px 30px;
+}
+.topnav .icon {
+  display: none;
+}
+label {
+/*   color: #6E6E6E; */
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+  }
+  .topnav.responsive .navbrand {
+    text-align: left;
+  }
+  .topnav.responsive .navlink {
+    text-align: center;
+  }
+}
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/* WELCOME SECTION */
+#welcome-section {
+  height: 100vh;
+  padding-top: 25vh;
+  top: auto;
+  bottom: 0%;
+}
+.welcome-section__inner {
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+}
+.welcome-section-title {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: -0.05rem;
+/*   line-height: 90%; */
+  margin: 0.3em 0;
+}
+#about {
+  width: 60%;
+}
+@media screen and (max-width: 768px) {
+  .welcome-section-title {
+    font-size: 2rem;
+  }
+}
+/* PROJECTS */
+.project-heading {
+  padding-top: 100px;
+}
+.project-tile {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 150px;
+}
+.project-tile-text {
+  width: 50%;
+  position: sticky;
+  top: 150px;
+  height: 100%;
+  padding: 10px;
+}
+.project-tile-text-inner {
+  width: 345px;
+}
+.project-link {
+  border-bottom: 1px dotted;
+  color: var(--primary-font);
+  padding: 3px;
+}
+.project-tile-img {
+  width: 60%;
+}
+.project-img {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  max-width: 550px;
+/*  border?  */
+}
+@media screen and (max-width: 768px){
+ .project-tile {
+  flex-direction: column;
+}
+ .project-tile-text {
+  width: 100%;
+  position: static;
+  top: 150px;
+  height: 100%;
+  maring: 0;
+}
+  .project-tile-text-inner, .project-tile-img {
+  width: 100%;
+}
+}
+/* FOOTER */
+footer {
+  margin-top: 15%;
+}
+.footer-intro {
+  width: 30%;
+  padding-bottom: 15px;
+}
+.footer-row {
+  display: flex;
+}
+.footer-col {
+  margin: 0 4vw 0 0;
+  width: 100%;
+}
+.footer-link {
+  display: inline-block;
+  margin: 1vh 0;
+  letter-spacing: -0.5px;
+}
+.copyright-box > p {
+  display: inline-block;
+}
+@media screen and (max-width: 1091px) {
+  .md-hide {
+  display: none;
+  }
+  .footer-intro {
+  width: 50%;
+  }
+  .font-sm {
+    font-size: 0.85em;
+  }
+}
+@media screen and (max-width: 641px) {
+  .footer-row {
+    display: block;
+  }
+  .footer-intro {
+    width: 100%;
+  }
+  .font-sm {
+    font-size: 0.75em;
+  }
+}
