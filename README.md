@@ -6,4 +6,4 @@ Built using html / css  🔧
 
 ## Work in progress
 
-The site doesn't yet work fully, I will be fixing the CSS/JS soonish 🌱
+The site doesn't yet work fully, I will be fixing the css / js soonish 🌱
