@@ -2,7 +2,7 @@
 
 An in-progress personal portfolio covering my work in as a paintings conservator :art:
 
-Built using html / css / Bootstrap 5 🔧
+Built using html / css  🔧
 
 ## Work in progress
 
