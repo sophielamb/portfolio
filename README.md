@@ -1,5 +1,3 @@
 # Sophie Lamb
 
-## Portfolio || Work in progress
-
-![img\red-admiral.jpg]()
+## Portfolio as a Paintings Conservator || Work in progress
