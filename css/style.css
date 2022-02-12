@@ -22,6 +22,10 @@ body {
   background-color: var(--background-colour);
   color: var(--primary-font);
 }
+
+div {
+  display: block;
+}
 a {
   cursor: pointer;
   text-decoration: none;
@@ -56,7 +60,11 @@ p, li {
   margin: 25px 0;
 }
 /* UTILITIES / styling? formatting? */
-.align-r {
+.left {
+  float: left;
+  margin-right: 10px;
+}
+.right {
   float: right;
 }
 /* REUSABLE COMPONENTS */
@@ -177,6 +185,7 @@ label {
     font-size: 2rem;
   }
 }
+
 /* PROJECTS */
 .project-heading {
   padding-top: 100px;
