@@ -41,17 +41,26 @@ ul {
   padding: 0;
 }
 /* FONT STYLING */
-p, li {
-  font-size: 1em;
+p, li, span, a {
+  font-size: 12px;
   line-height: 130%;
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
 p, li {
     font-size: 0.75em;
   }
-}
+} */
 .uppercase {
   text-transform: uppercase;
+}
+.font-xs {
+  font-size: 14px;
+}
+.font-sm {
+  font-size: 16px;
+}
+.font-md {
+  font-size: 25px;
 }
 /* SPACINGS */
 .margin-sm {
@@ -67,7 +76,8 @@ p, li {
 }
 /* REUSABLE COMPONENTS */
 .section {
-  margin: 2rem;
+  /* margin: 2rem; */
+  margin: 10px;
 }
 .hr {
   width: 98%;
@@ -100,12 +110,10 @@ p, li {
   float: left;
   width: 100px;
   color: var(--primary-font);
-  font-size: 25px;
   letter-spacing: 2px;
 }
 .navlink {
   float: right;
-  font-size: 17px;
 /*   color: #6E6E6E; */
   padding: 15px 30px;
 }
@@ -174,7 +182,6 @@ label {
     font-size: 2rem;
   }
 }
-
 /* PROJECTS */
 .project-heading {
   padding-top: 100px;
@@ -183,6 +190,7 @@ label {
   display: flex;
   flex-direction: row-reverse;
   margin-bottom: 150px;
+  margin-top: 150px;
 }
 .project-tile-text {
   width: 50%;
@@ -207,7 +215,6 @@ label {
   width: 100%;
   margin-bottom: 10px;
   max-width: 550px;
-/*  border?  */
 }
 @media screen and (max-width: 768px){
  .project-tile {
@@ -251,7 +258,12 @@ label {
     margin-right: 10px;
     margin-bottom: 40px;
     width: 20%;
-    width: calc(20% - 8px);
+    width: calc(20% - 11px);
+  }
+}
+@media screen and (min-width: 1200px) {
+  #grid {
+    width: 1180px;
   }
 }
 .feat-text {
@@ -265,7 +277,6 @@ label {
   width: 100%;
   display: block;
 }
-
 /* FOOTER */
 footer {
   margin-top: 5%;
@@ -273,6 +284,7 @@ footer {
 .footer-intro {
   width: 30%;
   padding-bottom: 15px;
+  margin-top: 90px;
 }
 .footer-row {
   display: flex;
