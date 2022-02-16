@@ -1,3 +1,3 @@
-# Sophie Lamb
+# Sophie Lamb || Paintings Conservation
 
-## Portfolio as a Paintings Conservator || Work in progress
+## Portfolio || Work in progress
