@@ -136,8 +136,8 @@ label {
   }
   .topnav.responsive .icon {
     position: absolute;
-    right: 2rem;
-    top: 2rem;
+    right: 10px;
+    top: 10px;
   }
   .topnav.responsive a {
     float: none;

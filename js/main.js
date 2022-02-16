@@ -1,4 +1,4 @@
-$(document).ready(function(){
+// $(document).ready(function(){
 
 // Menu collapse
 function collapseFunction() {
@@ -24,7 +24,4 @@ function stickyFunction() {
   }
 }
 
-// JQuery Get year for copyright
-$('#year').text(new Date().getFullYear());
-
-});
+// });
