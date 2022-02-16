@@ -162,6 +162,15 @@ label {
   top: auto;
   bottom: 0%;
 }
+.welcome-section__outer {
+  background-image: url(../img/profile-img.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.welcome-section__overlay {
+
+}
 .welcome-section__inner {
   position: absolute;
   top: auto;
