@@ -2,13 +2,12 @@
 
 /* GLOBAL */
 :root {
-  --background-colour: #fbf7f1;
-  --background-colour: #FAF3F3;
 /*  Where were these colours from?  */
   --background-colour: #EEE;
-  --background-colour: #f9f9f4;
+  --background-colour: #f9f9f4
   --primary-font: #222;
   --primary-font: #4c7bff;
+  --primary-font: #2D1FE8;
   --key-colour: #000;
   --accent-colour: #C4CACC;
 }
